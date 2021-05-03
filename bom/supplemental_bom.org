@@ -1,5 +1,7 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | Manufacturer                 | Manufacturer Part Number        | Vendor   | Vendor Part Number                 | Description                       |
-|------+----------+------------------------------+---------------------------------+----------+------------------------------------+-----------------------------------|
+| Item | Quantity | Manufacturer | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                     |
+|------+----------+--------------+--------------------------+----------+--------------------+---------------------------------|
+|    1 |        1 | Molex        |               2151700803 | Digi-Key | 900-2151700803-ND  | CABLE ASSY 8 CKT PICO-CLASP 600 |
+|      |          |              |                          |          |                    |                                 |
 #+tblfm: $1=@#-1

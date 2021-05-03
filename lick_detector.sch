@@ -57,4 +57,21 @@ F 3 "" H 10550 2450 50  0001 C CNN
 	1    10350 2450
 	1    0    0    -1  
 $EndComp
+$Comp
+L lick_detector:ADXL313 U?
+U 1 1 60903CFF
+P 4650 3550
+F 0 "U?" H 4650 4453 60  0000 C CNN
+F 1 "ADXL313" H 4650 4347 60  0000 C CNN
+F 2 "lick_detector:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 4650 3550 60  0001 C CNN
+F 3 "" H 4700 6300 60  0000 C CNN
+F 4 "Digi-Key" H 4650 3550 60  0001 C CNN "Vendor"
+F 5 "ADXL313WACPZ-RL7CT-ND" H 4650 3550 60  0001 C CNN "Vendor Part Number"
+F 6 "ACCEL 0.5-4G I2C/SPI 32LFCSP" H 4650 3550 60  0001 C CNN "Description"
+F 7 "1" H 4650 3550 50  0001 C CNN "Quantity"
+F 8 "Analog Devices Inc" H 4650 3550 50  0001 C CNN "Manufacturer"
+F 9 "ADXL313WACPZ-RL7" H 4650 3550 50  0001 C CNN "Manufacturer Part Number"
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
