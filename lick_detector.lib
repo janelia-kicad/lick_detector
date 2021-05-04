@@ -1,6 +1,61 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 0.1uF_0402
+#
+DEF 0.1uF_0402 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "0.1uF_0402" 0 0 30 H V C CNN
+F2 "lick_detector:SM0402" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Digi-Key" 100 200 60 H I C CNN "Vendor"
+F5 "1276-1739-1-ND" 200 300 60 H I C CNN "Vendor Part Number"
+F6 "CAP CER 0.1UF 25V Y5V" 300 400 60 H I C CNN "Description"
+F7 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10uF_0402_POL
+#
+DEF 10uF_0402_POL C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "10uF_0402_POL" 0 0 30 H V C CNN
+F2 "lick_detector:SM0402_POL" -90 -30 60 H I C CNN
+F3 "" 10 70 60 H I C CNN
+F4 "Digi-Key" 110 170 60 H I C CNN "Vendor"
+F5 "478-5343-1-ND" 210 270 60 H I C CNN "Vendor Part Number"
+F6 "CAP TANT 10UF 20% 6.3V" 310 370 60 H I C CNN "Description"
+F7 "AVX Corporation" 0 0 50 H I C CNN "Manufacturer"
+F8 "TLCK106M006QTA" 0 0 50 H I C CNN "Manufacturer Part Number"
+F9 "0402" 0 0 50 H I C CNN "Package"
+$FPLIST
+ CP*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 40 40 1 1 P
+X ~ 2 0 -100 73 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ADXL313
 #
 DEF ADXL313 U 0 40 Y Y 1 F N
@@ -68,6 +123,24 @@ DRAW
 C 0 0 25 0 1 0 f
 P 3 0 1 0 -50 0 50 0 50 0 N
 P 3 0 1 0 0 50 0 -50 0 -50 N
+ENDDRAW
+ENDDEF
+#
+# RECEPTACLE_2MM
+#
+DEF RECEPTACLE_2MM P 0 40 Y Y 1 F N
+F0 "P" 100 -100 60 H V C CNN
+F1 "RECEPTACLE_2MM" 0 100 60 H V C CNN
+F2 "lick_detector:RECEPTACLE_2MM" 0 1050 60 H I C CNN
+F3 "" 50 2750 60 H V C CNN
+F4 "Digi-Key" 0 1150 60 H I C CNN "Vendor"
+F5 "ED10170-ND" 0 1250 60 H I C CNN "Vendor Part Number"
+F6 "Pin Receptacle Connector 0.065in to 0.082in" 0 1350 60 H I C CNN "Description"
+F7 "1" 0 1400 50 H I C CNN "Quantity"
+F8 "Mill-Max Manufacturing Corp." 0 1400 50 H I C CNN "Manufacturer"
+F9 "9837-0-15-80-14-27-10-0" 0 1400 50 H I C CNN "Manufacturer Part Number"
+DRAW
+X ~ 1 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
