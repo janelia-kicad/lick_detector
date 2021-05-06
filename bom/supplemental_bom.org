@@ -1,7 +1,9 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | Manufacturer | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                     |
-|------+----------+--------------+--------------------------+----------+--------------------+---------------------------------|
-|    1 |        1 | Molex        |               2151700803 | Digi-Key | 900-2151700803-ND  | CABLE ASSY 8 CKT PICO-CLASP 600 |
-|      |          |              |                          |          |                    |                                 |
+| Item | Quantity | Manufacturer | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                  |
+|------+----------+--------------+--------------------------+----------+--------------------+------------------------------|
+|    1 |        1 | Molex        |               0150200073 | Digi-Key | 0150200073-ND      | CABLE FFC 8POS 0.50MM 1.18in |
+|    2 |        1 | Molex        |               0150200075 | Digi-Key | WM11389-ND         | CABLE FFC 8POS 0.50MM 2in    |
+|    3 |        1 | Molex        |               0150200077 | Digi-Key | 0150200077-ND      | CABLE FFC 8POS 0.50MM 3in    |
+|    4 |        1 | Molex        |               0150200079 | Digi-Key | WM11395-ND         | CABLE FFC 8POS 0.50MM 4in    |
 #+tblfm: $1=@#-1
