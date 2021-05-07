@@ -93,36 +93,6 @@ F 9 "9837-0-15-80-14-27-10-0" H 8600 3150 50  0001 C CNN "Manufacturer Part Numb
 $EndComp
 NoConn ~ 8600 1850
 $Comp
-L lick_detector:0.1uF_0402 C2
-U 1 1 60920CE5
-P 4900 2450
-F 0 "C2" H 5015 2480 40  0000 L CNN
-F 1 "0.1uF" H 5015 2412 30  0000 L CNN
-F 2 "lick_detector:SM0402" H 4938 2300 30  0001 C CNN
-F 3 "" H 4900 2450 60  0001 C CNN
-F 4 "Digi-Key" H 5000 2650 60  0001 C CNN "Vendor"
-F 5 "1276-1739-1-ND" H 5100 2750 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 5200 2850 60  0001 C CNN "Description"
-F 7 "0402" H 4900 2450 50  0001 C CNN "Package"
-	1    4900 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L lick_detector:0.1uF_0402 C3
-U 1 1 6092108C
-P 6700 2500
-F 0 "C3" H 6815 2530 40  0000 L CNN
-F 1 "0.1uF" H 6815 2462 30  0000 L CNN
-F 2 "lick_detector:SM0402" H 6738 2350 30  0001 C CNN
-F 3 "" H 6700 2500 60  0001 C CNN
-F 4 "Digi-Key" H 6800 2700 60  0001 C CNN "Vendor"
-F 5 "1276-1739-1-ND" H 6900 2800 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 7000 2900 60  0001 C CNN "Description"
-F 7 "0402" H 6700 2500 50  0001 C CNN "Package"
-	1    6700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L user_power:GND #PWR017
 U 1 1 609215E6
 P 5900 4400
@@ -213,21 +183,6 @@ F 8 "Yageo" H 5600 2600 50  0001 C CNN "Manufacturer"
 F 9 "RC0402FR-0710RL" H 5600 2600 50  0001 C CNN "Manufacturer Part Number"
 	1    5600 2600
 	-1   0    0    1   
-$EndComp
-$Comp
-L lick_detector:10.0k_0402 R2
-U 1 1 60925683
-P 5150 3200
-F 0 "R2" H 5200 3200 40  0000 L CNN
-F 1 "10.0k" V 5150 3200 40  0000 C CNN
-F 2 "lick_detector:SM0402" V 5080 3200 30  0001 C CNN
-F 3 "" H 5150 3200 30  0000 C CNN
-F 4 "Digi-Key" V 5330 3300 60  0001 C CNN "Vendor"
-F 5 "P10KJCT-ND" V 5430 3400 60  0001 C CNN "Vendor Part Number"
-F 6 "RES SMD 10K OHM 5% 1/10W" V 5530 3500 60  0001 C CNN "Description"
-F 7 "0402" H 5150 3200 50  0001 C CNN "Package"
-	1    5150 3200
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 3500 5150 3500
@@ -340,23 +295,6 @@ F 7 "ON Semiconductor" H 8200 4300 50  0001 C CNN "Manufacturer"
 F 8 "NC7SZ125M5X" H 8200 4300 50  0001 C CNN "Manufacturer Part Number"
 F 9 "SOT-23-5" H 8200 4300 50  0001 C CNN "Package"
 	1    8200 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L lick_detector:BUFFER_2_ELEMENT U3
-U 1 1 6093DC1F
-P 8200 4700
-F 0 "U3" H 8350 5000 40  0000 C CNN
-F 1 "BUFFER_2_ELEMENT" H 8500 4400 40  0000 C CNN
-F 2 "lick_detector:SOT-23-6" H 8200 5700 60  0001 C CNN
-F 3 "" H 8100 5600 60  0001 C CNN
-F 4 "Digi-Key" H 8000 5900 60  0001 C CNN "Vendor"
-F 5 "296-13496-1-ND" H 8100 5800 60  0001 C CNN "Vendor Part Number"
-F 6 "IC BUF NON-INVERT 5.5V" H 8200 5700 60  0001 C CNN "Description"
-F 7 "Texas Instruments" H 8200 5700 50  0001 C CNN "Manufacturer"
-F 8 "SN74LVC2G34DBVR" H 8200 5700 50  0001 C CNN "Manufacturer Part Number"
-F 9 "SOT-23-6" H 8200 5700 50  0001 C CNN "Package"
-	1    8200 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -525,21 +463,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 2850 6200 2900
 $Comp
-L lick_detector:0.1uF_0402 C4
-U 1 1 6095B319
-P 9100 3400
-F 0 "C4" H 9215 3430 40  0000 L CNN
-F 1 "0.1uF" H 9215 3362 30  0000 L CNN
-F 2 "lick_detector:SM0402" H 9138 3250 30  0001 C CNN
-F 3 "" H 9100 3400 60  0001 C CNN
-F 4 "Digi-Key" H 9200 3600 60  0001 C CNN "Vendor"
-F 5 "1276-1739-1-ND" H 9300 3700 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 9400 3800 60  0001 C CNN "Description"
-F 7 "0402" H 9100 3400 50  0001 C CNN "Package"
-	1    9100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L user_power:GND #PWR013
 U 1 1 6095B323
 P 9100 3650
@@ -566,21 +489,6 @@ $EndComp
 Wire Wire Line
 	9100 3150 9100 3200
 $Comp
-L lick_detector:0.1uF_0402 C5
-U 1 1 6095DF7E
-P 9100 4700
-F 0 "C5" H 9215 4730 40  0000 L CNN
-F 1 "0.1uF" H 9215 4662 30  0000 L CNN
-F 2 "lick_detector:SM0402" H 9138 4550 30  0001 C CNN
-F 3 "" H 9100 4700 60  0001 C CNN
-F 4 "Digi-Key" H 9200 4900 60  0001 C CNN "Vendor"
-F 5 "1276-1739-1-ND" H 9300 5000 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 0.1UF 25V Y5V" H 9400 5100 60  0001 C CNN "Description"
-F 7 "0402" H 9100 4700 50  0001 C CNN "Package"
-	1    9100 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L user_power:GND #PWR019
 U 1 1 6095DF88
 P 9100 4950
@@ -606,4 +514,106 @@ F 3 "" H 9100 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 4450 9100 4500
+$Comp
+L lick_detector:BUFFER_2_ELEMENT U3
+U 1 1 609531DF
+P 8200 4700
+F 0 "U3" H 8300 5000 40  0000 C CNN
+F 1 "BUFFER_2_ELEMENT" H 8500 4400 40  0000 C CNN
+F 2 "lick_detector:SOT-23-6" H 8200 5700 60  0001 C CNN
+F 3 "" H 8100 5600 60  0001 C CNN
+F 4 "Digi-Key" H 8000 5900 60  0001 C CNN "Vendor"
+F 5 "296-13496-1-ND" H 8100 5800 60  0001 C CNN "Vendor Part Number"
+F 6 "IC BUF NON-INVERT 5.5V" H 8200 5700 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 8200 5700 50  0001 C CNN "Manufacturer"
+F 8 "SN74LVC2G34DBVR" H 8200 5700 50  0001 C CNN "Manufacturer Part Number"
+F 9 "SOT-23-6" H 8200 5700 50  0001 C CNN "Package"
+	1    8200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lick_detector:0.1uF_0201 C2
+U 1 1 6095CD9C
+P 4900 2450
+F 0 "C2" H 5015 2480 40  0000 L CNN
+F 1 "0.1uF" H 5015 2412 30  0000 L CNN
+F 2 "lick_detector:C_0201_0603Metric" H 4938 2300 30  0001 C CNN
+F 3 "" H 4900 2450 60  0001 C CNN
+F 4 "Digi-Key" H 5000 2650 60  0001 C CNN "Vendor"
+F 5 "445-13671-1-ND" H 5100 2750 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V X5R" H 5200 2850 60  0001 C CNN "Description"
+F 7 "0201" H 4900 2450 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 4900 2450 50  0001 C CNN "Manufacturer"
+F 9 "C0603X5R1E104K030BB" H 4900 2450 50  0001 C CNN "Manufacturer Part Number"
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L lick_detector:0.1uF_0201 C3
+U 1 1 6095DBB3
+P 6700 2500
+F 0 "C3" H 6815 2530 40  0000 L CNN
+F 1 "0.1uF" H 6815 2462 30  0000 L CNN
+F 2 "lick_detector:C_0201_0603Metric" H 6738 2350 30  0001 C CNN
+F 3 "" H 6700 2500 60  0001 C CNN
+F 4 "Digi-Key" H 6800 2700 60  0001 C CNN "Vendor"
+F 5 "445-13671-1-ND" H 6900 2800 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V X5R" H 7000 2900 60  0001 C CNN "Description"
+F 7 "0201" H 6700 2500 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 6700 2500 50  0001 C CNN "Manufacturer"
+F 9 "C0603X5R1E104K030BB" H 6700 2500 50  0001 C CNN "Manufacturer Part Number"
+	1    6700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L lick_detector:0.1uF_0201 C4
+U 1 1 6095E618
+P 9100 3400
+F 0 "C4" H 9215 3430 40  0000 L CNN
+F 1 "0.1uF" H 9215 3362 30  0000 L CNN
+F 2 "lick_detector:C_0201_0603Metric" H 9138 3250 30  0001 C CNN
+F 3 "" H 9100 3400 60  0001 C CNN
+F 4 "Digi-Key" H 9200 3600 60  0001 C CNN "Vendor"
+F 5 "445-13671-1-ND" H 9300 3700 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V X5R" H 9400 3800 60  0001 C CNN "Description"
+F 7 "0201" H 9100 3400 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 9100 3400 50  0001 C CNN "Manufacturer"
+F 9 "C0603X5R1E104K030BB" H 9100 3400 50  0001 C CNN "Manufacturer Part Number"
+	1    9100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lick_detector:0.1uF_0201 C5
+U 1 1 6095F3C9
+P 9100 4700
+F 0 "C5" H 9215 4730 40  0000 L CNN
+F 1 "0.1uF" H 9215 4662 30  0000 L CNN
+F 2 "lick_detector:C_0201_0603Metric" H 9138 4550 30  0001 C CNN
+F 3 "" H 9100 4700 60  0001 C CNN
+F 4 "Digi-Key" H 9200 4900 60  0001 C CNN "Vendor"
+F 5 "445-13671-1-ND" H 9300 5000 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V X5R" H 9400 5100 60  0001 C CNN "Description"
+F 7 "0201" H 9100 4700 50  0001 C CNN "Package"
+F 8 "TDK Corporation" H 9100 4700 50  0001 C CNN "Manufacturer"
+F 9 "C0603X5R1E104K030BB" H 9100 4700 50  0001 C CNN "Manufacturer Part Number"
+	1    9100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lick_detector:10.0k_0201 R2
+U 1 1 609521DE
+P 5150 3200
+F 0 "R2" H 5200 3200 40  0000 L CNN
+F 1 "10.0k" V 5150 3200 40  0000 C CNN
+F 2 "lick_detector:SM0201" V 5080 3200 30  0001 C CNN
+F 3 "" H 5150 3200 30  0000 C CNN
+F 4 "Digi-Key" V 5330 3300 60  0001 C CNN "Vendor"
+F 5 "311-10.0KMCT-ND" V 5430 3400 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 10K OHM 1% 1/20W" V 5530 3500 60  0001 C CNN "Description"
+F 7 "0201" H 5150 3200 50  0001 C CNN "Package"
+F 8 "Yageo" H 5150 3200 50  0001 C CNN "Manufacturer"
+F 9 "RC0201FR-0710KL" H 5150 3200 50  0001 C CNN "Manufacturer Part Number"
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
