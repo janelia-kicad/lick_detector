@@ -616,17 +616,17 @@ F 9 "6-UFDFN" H 8200 4300 50  0001 C CNN "Package"
 	1    8200 3400
 	1    0    0    -1  
 $EndComp
-Text Label 1700 3650 0    50   ~ 0
-INT1
 Text Label 1700 3550 0    50   ~ 0
-INT2
-Text Label 1700 3250 0    50   ~ 0
-~CS
-Text Label 1700 3450 0    50   ~ 0
-MISO
+INT1
 Text Label 1700 3350 0    50   ~ 0
-MOSI
+INT2
 Text Label 1700 3150 0    50   ~ 0
+~CS
+Text Label 1700 3250 0    50   ~ 0
+MISO
+Text Label 1700 3650 0    50   ~ 0
+MOSI
+Text Label 1700 3450 0    50   ~ 0
 SCK
 $Comp
 L user_power:PWR_FLAG #FLG0101
