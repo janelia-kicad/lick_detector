@@ -75,24 +75,6 @@ F 9 "ADXL313WACPZ-RL7" H 5900 3600 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lick_detector:RECEPTACLE_2MM P2
-U 1 1 6091E13B
-P 8600 1750
-F 0 "P2" H 8644 1746 60  0000 L CNN
-F 1 "RECEPTACLE_2MM" H 8644 1640 60  0000 L CNN
-F 2 "lick_detector:RECEPTACLE_2MM" H 8600 2800 60  0001 C CNN
-F 3 "" H 8650 4500 60  0000 C CNN
-F 4 "Digi-Key" H 8600 2900 60  0001 C CNN "Vendor"
-F 5 "ED10170-ND" H 8600 3000 60  0001 C CNN "Vendor Part Number"
-F 6 "Pin Receptacle Connector 0.065in to 0.082in" H 8600 3100 60  0001 C CNN "Description"
-F 7 "1" H 8600 3150 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 8600 3150 50  0001 C CNN "Manufacturer"
-F 9 "9837-0-15-80-14-27-10-0" H 8600 3150 50  0001 C CNN "Manufacturer Part Number"
-	1    8600 1750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8600 1850
-$Comp
 L user_power:GND #PWR017
 U 1 1 609215E6
 P 5900 4400
