@@ -1,0 +1,18 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name lick_detector
+  #+MACRO: version 1.0
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/lick_detector
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This board was designed to detect mouse licks using an accelerometer. The
+  board needs to be small and light weight and mounted to a lickport tube that
+  allows some small amount of motion.
+
+* Assembly Instructions
+
+  - Solder surface mount components onto the pcb.
