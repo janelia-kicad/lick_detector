@@ -1,0 +1,73 @@
+# Created 2021-05-13 Thu 11:52
+#+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
+* Repository Information
+
+- Name :: lick_detector
+- Version :: 1.0
+- License :: Open-Source Hardware
+- URL :: https://github.com/janelia-kicad/lick_detector
+- Author :: Peter Polidoro
+- Email :: peterpolidoro@gmail.com
+
+** Description
+
+This board was designed to detect mouse licks using an accelerometer. The
+board needs to be small and light weight and mounted to a lickport tube that
+allows some small amount of motion.
+
+* Images
+
+* Schematic
+
+[[file:./schematic/lick_detector.pdf][./schematic/lick_detector.pdf]]
+
+[[file:./schematic/images/schematic00.png]]
+
+* Gerbers
+
+[[file:./gerbers/images/gerbers00.png]]
+
+[[file:./gerbers/images/gerbers01.png]]
+
+* Bill of Materials
+
+** PCB Parts
+
+| Item | Reference(s) | Quantity | Manufacturer       | Manufacturer Part Number | Vendor   | Vendor Part Number    | Description                  | Package |
+|------+--------------+----------+--------------------+--------------------------+----------+-----------------------+------------------------------+---------|
+|    1 | C1           |        1 | AVX Corporation    | TLCK106M006QTA           | Digi-Key | 478-5343-1-ND         | CAP TANT 10UF 20% 6.3V       |    0402 |
+|    2 | C2 C3        |        2 | TDK Corporation    | C0603X5R1E104K030BB      | Digi-Key | 445-13671-1-ND        | CAP CER 0.1UF 25V X5R        |    0201 |
+|    3 | P1           |        1 | Molex              | 5034800800               | Digi-Key | WM1388CT-ND           | CONN FFC FPC 8POS 0.50MM R/A |         |
+|    4 | R1           |        1 | Yageo              | RC0201JR-0710RL          | Digi-Key | 311-10NCT-ND          | RES SMD 10 OHM 5% 1/20W      |    0201 |
+|    5 | U1           |        1 | Analog Devices Inc | ADXL313WACPZ-RL7         | Digi-Key | ADXL313WACPZ-RL7CT-ND | ACCEL 0.5-4G I2C/SPI 32LFCSP |         |
+|      | FID1         |        1 |                    |                          |          |                       |                              |         |
+
+** Supplemental Parts
+
+| Item | Quantity | Manufacturer | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                  |
+|------+----------+--------------+--------------------------+----------+--------------------+------------------------------|
+|    1 |        1 | Molex        |               0150200073 | Digi-Key | 0150200073-ND      | CABLE FFC 8POS 0.50MM 1.18in |
+|    2 |        1 | Molex        |               0150200075 | Digi-Key | WM11389-ND         | CABLE FFC 8POS 0.50MM 2in    |
+|    3 |        1 | Molex        |               0150200077 | Digi-Key | 0150200077-ND      | CABLE FFC 8POS 0.50MM 3in    |
+|    4 |        1 | Molex        |               0150200079 | Digi-Key | WM11395-ND         | CABLE FFC 8POS 0.50MM 4in    |
+|    5 |        1 | Molex        |               0150200081 | Digi-Key | 0150200081-ND      | CABLE FFC 8POS 0.50MM 5in    |
+|    6 |        1 | Molex        |               0150200083 | Digi-Key | WM6662-ND          | CABLE FFC 8POS 0.50MM 6in    |
+|    7 |        1 | Molex        |               0150200087 | Digi-Key | WM11411-ND         | CABLE FFC 8POS 0.50MM 8in    |
+|    8 |        1 | Molex        |               0150200093 | Digi-Key | WM25022-ND         | CABLE FFC 8POS 0.50MM 12in   |
+#+TBLFM: $1=@#-1
+
+** Vendor Parts Lists
+
+[[file:./bom/Digi-Key_parts.csv][./bom/Digi-Key_parts.csv]]
+
+* Supplemental Documentation
+
+** Assembly Instructions
+
+- Solder surface mount components onto the pcb.
+
+* Manufacturing Archive
+
+Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
+
+[[file:./manufacturing/lick_detector_v1.0.zip][./manufacturing/lick_detector_v1.0.zip]]
